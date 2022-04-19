@@ -27,7 +27,7 @@ expression = ""
 input_text = StringVar()
 
 
-input_frame = Frame(root, width = 312, height = 50, bd = 0, highlightbackground = "white", highlightcolor = "black", highlightthickness = 1)
+input_frame = Frame(root, width = 312, height = 50, bd = 0, highlightbackground = "black", highlightcolor = "black", highlightthickness = 1)
 input_frame.pack(side = TOP)
 
 input_field = Entry(input_frame, font = ("Robotolight 18"), textvariable = input_text, width = 50, bg = "#eee", bd = 0, justify = RIGHT)
