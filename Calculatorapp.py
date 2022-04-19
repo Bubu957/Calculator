@@ -34,7 +34,7 @@ input_field = Entry(input_frame, font = ("Robotolight 18"), textvariable = input
 input_field.grid(row = 0, column = 0)
 input_field.pack(ipady = 10)
 
-btns_frame = Frame(root, width = 312, height = 272.5, bg = "black")
+btns_frame = Frame(root, width = 312, height = 272.5, bg = "grey")
 btns_frame.pack()
 
 
